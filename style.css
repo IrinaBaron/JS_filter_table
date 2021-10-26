@@ -1,0 +1,109 @@
+body {
+  margin: 0 auto;
+}
+
+p {
+  height: 20px;
+  font-size: 18px;
+  color: #c31403;
+  text-align: center;
+}
+
+.hero {
+  background-color: #f6fafb;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 80px 0;
+  padding-top: 30px;
+  max-width: 1140px;
+}
+
+.hero__title {
+  margin: 0;
+  margin-bottom: 25px;
+  font-size: 30px;
+  color: #04323a;
+  text-align: center;
+}
+
+.form {
+  margin: 0 auto;
+  margin-bottom: 20px;
+  max-width: 1020px;
+}
+
+.table {
+  width: 100%;
+  text-align: center;
+}
+
+th, td {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #04323a;
+  border-radius: 10px; 
+  background-color: #c1c8c7;
+}
+
+th {
+  cursor: pointer;
+  transition: background-color .6s ease-in-out;
+}
+
+th:hover {
+  background-color: #d1dcde;
+}
+
+input {
+  margin-bottom: 20px;
+  padding: 12px 25px;
+  border: 1px solid #04323a;
+  border-radius: 10px;
+  color: #04323a;
+  background-color: #c1c8c7;
+}
+
+input::placeholder {
+  color: #f6fafb;
+}
+
+/* .form input:nth-child(4n) {
+  margin-right: 50px;
+} */
+
+
+
+#birthday {
+  margin-right: 50px;
+  padding: 10px 20px;
+}
+
+#button,
+button {
+  display: block;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  color: #c1c8c7;
+  background-color: #04323a;
+  cursor: pointer;
+  transition: background-color .6s ease-in-out, color .6s ease-in-out, border-color .6s ease-in-out;
+}
+
+#button:hover,
+button:hover {
+  border-color: #04323a;
+  color: #04323a;
+  background-color: #f6fafb;
+}
+
+button {
+  display: inline;
+  padding: 12px 25px;
+}
+
+label input {
+  display: inline-block;
+}
+
